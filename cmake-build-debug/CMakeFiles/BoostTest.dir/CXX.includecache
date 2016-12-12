@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/judrc/ClionProjects/TetrisProblem/common.hpp
+iostream
+-
+fstream
+-
+vector
+-
+ctime
+-
+cstdlib
+-
+boost/program_options.hpp
+-
+
+/home/judrc/ClionProjects/TetrisProblem/main.cpp
+scattersearch.hpp
+/home/judrc/ClionProjects/TetrisProblem/scattersearch.hpp
+
+/home/judrc/ClionProjects/TetrisProblem/scattersearch.hpp
+common.hpp
+/home/judrc/ClionProjects/TetrisProblem/common.hpp
+

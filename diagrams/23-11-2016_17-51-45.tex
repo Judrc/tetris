@@ -1,0 +1,37 @@
+\documentclass[dvipsnames]{article}
+\usepackage[pdftex,active,tightpage]{preview}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\PreviewEnvironment{tikzpicture}
+
+\begin{document}
+  \begin{tikzpicture}[scale=0.75]
+    \begin{scope}
+       \draw (0 ,17) -- (0,0) -- (20,0) -- (20,17);
+           \filldraw[blue,draw=black] (0,0) rectangle (3,12);
+           \draw (1.5,6) node {7};
+
+           \filldraw[brown,draw=black] (3,0) rectangle (11,6);
+           \draw (7,3) node {3};
+
+           \filldraw[cyan,draw=black] (11,0) rectangle (16,5);
+           \draw (13.5,2.5) node {6};
+
+           \filldraw[gray,draw=black] (11,5) rectangle (18,17);
+           \draw (14.5,11) node {2};
+
+           \filldraw[green,draw=black] (3,6) rectangle (6,13);
+           \draw (4.5,9.5) node {8};
+
+           \filldraw[magenta,draw=black] (6,6) rectangle (9,12);
+           \draw (7.5,9) node {4};
+
+           \filldraw[orange,draw=black] (18,0) rectangle (20,12);
+           \draw (19,6) node {1};
+
+           \filldraw[purple,draw=black] (0,12) rectangle (3,17);
+           \draw (1.5,14.5) node {5};
+
+     \end{scope}
+  \end{tikzpicture}
+\end{document}

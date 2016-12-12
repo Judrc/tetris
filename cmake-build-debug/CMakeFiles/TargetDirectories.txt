@@ -1,0 +1,4 @@
+/home/judrc/ClionProjects/TetrisProblem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/judrc/ClionProjects/TetrisProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/judrc/ClionProjects/TetrisProblem/cmake-build-debug/CMakeFiles/TetrisProblem.dir
+/home/judrc/ClionProjects/TetrisProblem/cmake-build-debug/CMakeFiles/TetrisProblem_automoc.dir

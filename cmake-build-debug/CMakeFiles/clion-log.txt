@@ -1,0 +1,7 @@
+/home/judrc/Clion/clion-2016.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/judrc/ClionProjects/TetrisProblem
+CMake Error at CMakeLists.txt:4 (CMAKE_AUTOMOC_RELAXED_MODE):
+  Unknown CMake command "CMAKE_AUTOMOC_RELAXED_MODE".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/judrc/ClionProjects/TetrisProblem/cmake-build-debug/CMakeFiles/CMakeOutput.log".
